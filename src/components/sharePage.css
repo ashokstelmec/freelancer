@@ -1,0 +1,116 @@
+.share-page-body {
+    font-family: Arial, sans-serif;
+}
+
+.row{
+    --bs-gutter-x: 0.1rem;
+}
+
+.header {
+    background-color: #002147;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header .buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.header .buttons button {
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.job-detailss {
+    padding: 20px 0;
+    text-align: left;
+    /* position: relative; */
+    /* left: -120px; */
+}
+
+.job-detailss h2 {
+    margin-top: 0;
+}
+
+/* .share-page-container{
+    position: relative;
+    left: -300px;
+} */
+
+.job-detailss .info {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.job-detailss .info div {
+    width: 48%;
+}
+
+.job-detailss .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.job-detailss .skills span {
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.activity {
+    padding: 20px 0;
+    text-align: left;
+}
+
+.activity div {
+    margin: 5px 0;
+}
+
+.log-in-btn{
+    padding: 0.2rem 1.2rem;
+    border-radius: 4px;
+    background-color: rgb(245, 240, 240);
+    border: none;
+    color: #000;
+    font-family: sans-serif;
+}
+
+
+/* .log-in-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+ 
+
+.log-in-btn:hover{
+    background-color: rgb(177, 174, 174);
+    color: #3f3d3d;
+}
+
+.sign-up-btn{
+    padding: 0.2rem 1.2rem;
+    border-radius: 4px;
+    background-color: green;
+    border: none;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.sign-up-btn:hover{
+    background-color: rgb(2, 92, 2);
+    color: #fff;
+}

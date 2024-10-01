@@ -1,0 +1,89 @@
+.post-project-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh; 
+    text-align: left;
+}
+
+
+.post-project-content {
+    flex: 1; 
+}
+
+.d-flex {
+    margin-top: auto;
+}
+
+.step-indicator {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.section-description {
+    color: #777;
+    font-size: 16px;
+}
+
+.example-titles {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.example-titles li {
+    margin-block: 1rem;
+}
+
+.btn-back {
+    color: #28a745;
+    border-color: #28a745;
+    background-color: white;
+    border-width: 1px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn-next {
+    color: white;
+    background-color: #28a745;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+/* Hover effects */
+.btn-back:hover {
+    color: white;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-next:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 24px;
+    }
+    .section-description,
+    .example-titles {
+        font-size: 14px;
+    }
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}

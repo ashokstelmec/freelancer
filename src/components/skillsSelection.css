@@ -1,0 +1,219 @@
+.contaiiner button {
+    background: #28a745;
+    color: white;
+    border: 2px solid #28a745;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+
+button:disabled {
+    background: #ddd;
+    color: #666;
+    border-color: #ddd;
+    cursor: not-allowed;
+}
+
+.skills-container {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* background-color: #f5f5f5; */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    border-radius: 6px;
+
+}
+
+.contaiiner {
+    width: 80%;
+    max-width: 650px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.headerr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logoo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .header .logo img {
+    width: 100px;
+} */
+
+.contennt {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contennt .left {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contennt .left h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contennt .left p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.contennt .left .skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.contennt .left .skills-tags .tag {
+    background: #eee;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contennt .left .skills-tags .tag .remove {
+    cursor: pointer;
+    color: red;
+}
+
+.contennt .left .filter-input {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    height: 110px !important;
+}
+
+.contennt .left .dropdown {
+    position: relative;
+    width: 100%;
+}
+
+.contennt .left .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10;
+    display: none;
+}
+
+.contennt .left .dropdown-menu .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contennt .left .dropdown-menu .dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+.contennt .left .max-skills {
+    padding-top: 5px;
+    font-size: 14px;
+    color: #999393;
+}
+
+.contennt .right {
+    width: 25%;
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.contennt .right .tip {
+    font-size: 16px;
+    color: #333;
+    float: right !important;
+}
+
+.contennt .right .tip p {
+    font-size: 14px;
+    color: #666;
+}
+
+.contennt .right .tip .quote {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.contennt .right .tip .quote img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.contennt .right .tip .quote p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#save-skills{
+    float: right;
+} 
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 9999;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 9998;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

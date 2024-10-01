@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.ccontainer {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    width: 600px;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.email-icon img {
+    width: 80px;
+    /* margin-bottom: 20px; */
+}
+
+.ccontainer h1 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.ccontainer p {
+    font-size: 16px;
+    color: #666666;
+    margin: 5px 0;
+}
+
+.ccontainer p strong {
+    color: #333333;
+}
+
+.btn-green {
+    background-color: #00b200;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-green:hover {
+    background-color: #009900;
+}
+
+.link {
+    display: block;
+    margin-top: 10px;
+    color: #00b200;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+.login-page a{
+    color: green;
+    text-decoration: none;
+}
+
+.login-page a:hover{
+    text-decoration: underline;
+    color: rgb(49, 240, 144);
+}

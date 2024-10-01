@@ -1,0 +1,16 @@
+.nav-link {
+    border: none;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #000;
+  }
+  
+  .nav-link:hover {
+    text-decoration: none !important;
+  }
+  
+  .active-link {
+    /* font-weight: bold; */
+    border-bottom: 2px solid #fff !important; /* Adds the underline */
+  }

@@ -1,0 +1,156 @@
+.qualification-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.containner {
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px #ddd;
+    width: 790px;
+    max-width: 100%;
+    position: relative;
+}
+
+.logoo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logoo img {
+    width: 30%;
+}
+
+.questionnaire h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding-inline: 1rem;
+}
+
+.questionnaire p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding-inline: 1rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 1rem !important;
+}
+
+.option {
+    background: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: border 0.3s;
+    position: relative;
+}
+
+.option:hover {
+    border: none;
+    outline: 2px solid green;
+}
+
+.option.active {
+    border: none;
+    outline: 2px solid green;
+}
+
+.option img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.option input[type="radio"] {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 0.8rem;
+}
+
+.buttons button {
+    background: #28a745;
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.buttons button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.buttons button:hover:not(:disabled) {
+    background: #218838;
+}
+
+.buttons .skip {
+    background: #ccc;
+    color: #333;
+}
+
+.buttons .skip:hover {
+    background: #bbb;
+    color: #fff;
+}
+
+.buttons .back:hover {
+    text-decoration: underline;
+}
+
+.option p {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    display: none; 
+}
+
+.spinner {
+    border: 8px solid rgba(0, 0, 0, 0.1); 
+    border-left: 8px solid #3498db; 
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,66 @@
+.review-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card {
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+.form-label {
+    font-weight: bold;
+    color: #495057;
+}
+.form-control {
+    border-radius: 12px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+.btn-success {
+    background-color: #00c851;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-success:hover {
+    background-color: #007e33;
+}
+.btn-outline-secondary {
+    border-radius: 12px;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+.btn-outline-secondary:hover {
+    color: #ffffff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.review-container h3 {
+    font-weight: bold;
+    color: #343a40;
+}
+.form-control-plaintext {
+    font-size: 1.2rem;
+    margin-top: -1rem;
+    color: #6c757d;
+}
+.card-body {
+    padding-inline: 2rem;
+    padding-block: 2rem;
+}
+.job-details{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.btn-bacck {
+    background-color: white;
+    color: #28a745;
+    border: 1px solid #28a745;
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.1);
+}
+.btn-bacck:hover {
+    background-color: #28a745;
+    color: white;
+    box-shadow: 0 0 20px rgba(40, 167, 69, 0.3);
+}

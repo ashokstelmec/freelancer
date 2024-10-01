@@ -1,0 +1,69 @@
+.expert-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+
+  .expert-card:hover {
+    transform: translateY(-10px);
+  }
+
+  .expert-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .expert-card-body {
+    padding: 20px;
+  }
+
+  .expert-card-body p {
+    margin-bottom: 10px;
+  }
+
+  .expert-card .skills {
+    background-color: #f8f9fa;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 5px;
+    color: #495057;
+  }
+
+  /* Bio Container with line clamping */
+  .bio-container {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; 
+    overflow: hidden;
+    position: relative;
+    max-height: 3.6em; 
+  }
+
+  .read-more-btn {
+    display: inline-block;
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+    padding-left: 5px;
+    line-height: 1.8em; 
+  }
+
+  .bio-expanded {
+    display: block;
+    -webkit-line-clamp: unset; 
+    max-height: none; 
+  }
+
+  .no-user-message {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 18px;
+  }

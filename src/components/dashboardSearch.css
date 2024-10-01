@@ -1,0 +1,54 @@
+.dashboard-container h5 {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.job-listing {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: left;
+}
+
+.job-posted {
+    font-size: 11px;
+    color: #b3b0b0;
+}
+
+.experience-level, .form-check{
+    text-align: left !important;
+}
+
+.experience-level label{
+    font-size: 1.1rem;
+}
+
+.job-listing h5 {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+.job-listing .btn {
+    border: none;
+    background-color: transparent;
+}
+
+.job-listing .btn-outline-secondary:hover {
+    background-color: #f8f9fa;
+}
+
+.job-listing .badge {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.6rem 1rem;
+}
+
+.experience-level {
+    margin-bottom: 1.3rem;
+}
+
+.btn-saved {
+    color: #ff0000; /* Red color for saved */
+}

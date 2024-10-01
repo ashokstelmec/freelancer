@@ -1,0 +1,366 @@
+.proposals-container{
+    text-align: left;
+}
+
+
+.proposal-card {
+    margin-bottom: 20px;
+    border: 1px solid #e1e4e8;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.proposal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.proposal-card .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.proposal-card .card-body img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.proposal-info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.proposal-info p {
+    width: 70%;
+}
+
+.proposal-info h5 {
+    margin-bottom: 10px;
+}
+
+.proposal-info .badge {
+    margin-right: 5px;
+}
+
+.skills span {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #6c757d;
+}
+
+.response-time {
+    color: #6c757d;
+}
+
+.proposal-price {
+    text-align: right;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.proposal-price span {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.read-more {
+    color: #007bff;
+    cursor: pointer;
+    display: none;
+    margin-top: 5px;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.hidden-text {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .proposal-card .card-body {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .proposal-info {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .proposal-price {
+        margin-top: 20px;
+        text-align: left;
+    }
+}
+
+
+
+/* ------------------XXXXXXXXXXXX--------------- */
+
+
+.proposal-card {
+    margin-bottom: 20px;
+    border: 1px solid #e1e4e8;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.proposal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.proposal-card .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.proposal-card .card-body img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.proposal-info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.proposal-info p {
+    width: 70%;
+}
+
+.proposal-info h5 {
+    margin-bottom: 10px;
+}
+
+.proposal-info .badge {
+    margin-right: 5px;
+}
+
+.skills span {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #6c757d;
+}
+
+.response-time {
+    color: #6c757d;
+}
+
+.proposal-price {
+    text-align: right;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.proposal-price span {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.read-more {
+    color: #007bff;
+    cursor: pointer;
+    display: none;
+    margin-top: 5px;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.hidden-text {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .proposal-card .card-body {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .proposal-info {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .proposal-price {
+        margin-top: 20px;
+        text-align: left;
+    }
+}.proposal-card {
+    margin-bottom: 20px;
+    border: 1px solid #e1e4e8;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.proposal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.proposal-card .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.proposal-card .card-body img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.proposal-info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.proposal-info p {
+    width: 70%;
+}
+
+.proposal-info h5 {
+    margin-bottom: 10px;
+}
+
+.proposal-info .badge {
+    margin-right: 5px;
+}
+
+.skills span {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #6c757d;
+}
+
+.response-time {
+    color: #6c757d;
+}
+
+.proposal-price {
+    text-align: right;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.proposal-price span {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.read-more {
+    color: #007bff;
+    cursor: pointer;
+    display: none;
+    margin-top: 5px;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.hidden-text {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .proposal-card .card-body {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .proposal-info {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .proposal-price {
+        margin-top: 20px;
+        text-align: left;
+    }
+}
+
+
+
+
+/* -----------------xxxxxxxxxxxxxxxxxxxxxxxxxx------------------ */
+
+
+ /* Background color for the navbar */
+ .bg-dark-blue {
+    background-color: #003366; /* Dark blue color */
+}
+
+/* Custom styles for the search container */
+.search-container {
+    background-color: #f1f1f1;
+    border-radius: 50px;
+    padding: 5px;
+    position: relative;
+    width: 500px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the search form */
+}
+
+.search-input {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 50px;
+    padding-left: 45px; /* Leave space for the icon */
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.search-button {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.search-input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile section */
+.navbar .rounded-circle {
+    border: 2px solid #fff;
+}
+
+.navbar .text-white {
+    font-size: 0.9rem;
+}
+
+#navbarSupportedContent input:focus {
+    background-color: #f1f1f1;
+}

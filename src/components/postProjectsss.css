@@ -1,0 +1,74 @@
+.container-custom {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding-block: 1.6rem;
+    margin-block: 0.5rem;
+    border-radius: 6px;
+    padding-inline: 5rem;
+    text-align: left;
+}
+
+.bullet-points {
+    margin-bottom: 30px;
+}
+
+.bullet-points ul li {
+    margin-block: 1.2rem;
+}
+
+.description-textarea {
+    width: 120%;
+    height: 320px;
+}
+
+.btn-custom {
+    background-color: #ffffff;
+    border: 2px solid #28a745;
+    color: #28a745;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn-custom:hover {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.file-input {
+    display: none;
+}
+
+.footer-nav {
+    padding: 20px;
+}
+
+.footer-nav .btn-back {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    color: #333333;
+}
+
+.btn-back:hover {
+    background-color: #28a745; 
+    color: #fff; 
+}
+
+.footer-nav .btn-review {
+    background-color: #e0e0e0;
+    color: #999999;
+    border: none;
+}
+
+.footer-nav .btn-review.active {
+    background-color: #28a745; 
+    color: #fff; 
+}
+
+.file-name {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333333;
+}

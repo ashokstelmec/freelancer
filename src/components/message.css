@@ -1,0 +1,231 @@
+.file-icon i {
+    font-size: 1.2em;
+}
+
+.file-icon {
+    font-size: 1.5em; 
+    color: #e3e8ec; 
+    margin-left: 5px;
+}
+
+
+.seen-icon {
+    color: blue;
+}
+
+.unseen-icon {
+    color: grey;
+}
+
+.chat-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-info {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.message-text{
+    color: #fff;
+}
+
+
+
+
+
+/* Your existing CSS here */
+.message-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-panel, .right-panel {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+.left-panel {
+    max-width: 400px;
+    margin-right: 1rem;
+    flex: 1;
+}
+
+.right-panel {
+    flex: 2;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    outline: none;
+}
+    
+.search-bar .bi {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.tab-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab-links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.tab-links a.active {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.chat-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.chat-list li {
+    margin-block: 1rem;
+}
+
+.chat-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.chat-item:hover {
+    background-color: #f1f1f1;
+}
+
+.chat-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-item .chat-info {
+    flex-grow: 1;
+}
+
+.chat-item .chat-info .name {
+    font-weight: bold;
+}
+
+.chat-item .chat-info .message {
+    color: #555;
+    font-size: 0.9em;
+}
+
+.chat-item .chat-time {
+    font-size: 0.8em;
+    color: #aaa;
+    margin-top: -1.3rem;
+}
+
+.chat-header {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.chat-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-body {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.chat-message {
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+
+.chat-message.sent {
+    justify-content: flex-end;
+}
+
+.chat-message.received {
+    justify-content: flex-start;
+}
+
+.chat-message img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.message-content {
+    max-width: 75%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1876d3;
+}
+
+.message-content.sent {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.chat-footer {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.chat-footer input {
+    flex-grow: 1;
+    border: none;
+    padding: 5px;
+    outline: none;
+    padding-block: 0.6rem;
+}
+
+.chat-footer .bi {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#fileInput {
+    display: none; 
+}

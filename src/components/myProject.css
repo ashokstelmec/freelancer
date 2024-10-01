@@ -1,0 +1,63 @@
+.nav-tabs {
+    border-bottom: 2px solid #dee2e6;
+}
+.nava-item {
+    margin-bottom: -2px;
+}
+
+.input-groupp{
+    display: flex;
+}
+
+.nav-link {
+    border: 1px solid transparent;
+    border-radius: 0;
+    color: #000;
+}
+ 
+.table {
+    margin-top: 20px;
+}
+
+.status-open {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn-edit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px; 
+}
+
+@media only screen and (max-width: 1200px) {
+    .input-groupp {
+        width: 70% !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .input-groupp {
+        width: 60% !important;
+    }
+}
+
+
+.contests-button button{
+    margin-left: 0.2rem;
+}
+
+#saved{
+    margin-top: -12rem;
+}

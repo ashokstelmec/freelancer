@@ -1,0 +1,190 @@
+.biodata-container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.contaainer {
+    background: #fff;
+    padding: 15px 40px;
+    border-radius: 20px;
+    width: 450px;
+    max-width: 100%;
+    box-shadow: 10px 10px 10px 10px #ddd;
+}
+
+.loogo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.loogo img {
+    width: 150px;
+}
+
+.questionnaire h2 {
+    /* font-size: 28px; */
+    /* word-spacing: 5px; */
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.questionnaire p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.bio-textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    resize: vertical;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+}
+
+.char-count {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888;
+}
+
+.bio-textarea:focus {
+    border-color: #0077cc;
+}
+
+.bio-textarea::placeholder {
+    color: #bbb;
+}
+
+.butttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.butttons button {
+    background: green;
+    color: white;
+    padding: 3px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.butttons button:hover {
+    background: green;
+    transform: translateY(-2px);
+}
+
+.butttons .skiip {
+    background: transparent;
+    color: #333;
+}
+
+.butttons .skiip:hover {
+    background: #bbb;
+    transform: translateY(-2px);
+}
+
+.butttons .back {
+    color: green;
+    background: #d3d1d1;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.butttons .back:hover {
+    background: #b8b5b5;
+}
+
+.butttons .next:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+.upload-resume {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    margin-top: 1.8rem;
+}
+
+.upload-resume button {
+    background: #28a745;
+    color: white;
+    border: 2px solid #28a745;
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+
+.upload-resume button:hover {
+    background: white;
+    color: #28a745;
+    transform: translateY(-2px);
+}
+
+.hidden-file-input {
+    display: none;
+}
+
+.file-preview {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.file-preview span {
+    display: block;
+    margin-top: 5px;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 9999;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 9998;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
